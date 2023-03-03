@@ -1,0 +1,79 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+
+  .card-body {
+    margin: 5px
+}
+
+ .input-group-text {
+    width: 70px;
+    font-weight: 400;
+ }
+
+#desc {
+    width: 100px;
+   
+ }
+ #desc2 {
+   width: 100px;
+   height: 57px;
+ }
+
+ .input-group {
+    margin: 2px 10px 0 0;
+ }
+
+ .btn {
+    margin-top: 30px;
+ }
+
+ #final {
+    margin-top: 20px;
+    border: 2px solid #00c2e8;
+    text-align: center;
+    font-size:130%
+    
+    
+ }
+
+ body {
+    background: linear-gradient(to right, rgb(183, 38, 38), yellow);
+   
+    }
+        
+   input {
+    size-adjust: 80%;
+
+   }
+
+   input:focus:invalid {
+      border: 1px double rgb(234, 38, 24);
+   }
+
+   .alert {
+    text-align: center;
+   }
+.form-range {
+   margin-left: 10px;
+   width: 220px;
+   color-scheme: dark;
+}
+
+.output {
+   margin: auto;
+}
